@@ -1,0 +1,23 @@
+{
+  "id": "astra-codex",
+  "name": "星澜代码姬",
+  "nameEn": "ASTRA CODEX",
+  "author": "z460440448",
+  "tagline": "人机共生 · 液态玻璃 · 专注编码",
+  "taglineEn": "Human-AI symbiosis · liquid glass · focused coding",
+  "description": "融合 Codex 的克制代码感与 Apple 的清透材质，为浅色和深色模式打造的女性拟人 AI 工作台。",
+  "tags": ["codex", "apple", "glass", "anime", "ai"],
+  "accent": "#12a594",
+  "bodyAttr": "data-dsh-astra-codex",
+  "dshCompatibility": "0.1.7rc2",
+  "package": "@z460440448/dsh-client-ui-skin-astra-codex",
+  "wiring": {
+    "id": "ui-skin-astra-codex",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "preview/light.png",
+    "dark": "preview/dark.png"
+  },
+  "order": 5
+}

@@ -1,0 +1,70 @@
+{
+  "name": "@z460440448/dsh-client-ui-skin-astra-codex",
+  "description": "A calm Apple-inspired Codex workspace with an anthropomorphic AI companion, crafted for light and dark modes.",
+  "icon": "assets/plugin-icon.svg",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./skin.json": "./skin.json",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "build": "node ../scripts/prepare-skin-assets.mjs . && tsdown && node ../scripts/write-skin-build.mjs . z460440448/dsh-deep-whale",
+    "test": "vitest run"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z460440448/dsh-deep-whale.git",
+    "directory": "astra-codex"
+  },
+  "homepage": "https://github.com/z460440448/dsh-deep-whale/tree/custom/local-enhancements/astra-codex#readme",
+  "bugs": {
+    "url": "https://github.com/z460440448/dsh-deep-whale/issues"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh": ">=0.1.7-rc.1 <0.1.8-0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "jsdom": "29.1.1",
+    "lightningcss": "^1.32.0",
+    "tsdown": "^0.22.2",
+    "vite-tsconfig-paths": "^6.1.1",
+    "vitest": "^4.1.8"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "skin.json",
+    "skin.build.json",
+    "preview",
+    "LICENSE",
+    "LICENSE-ARTWORK",
+    "NOTICE",
+    "README.md",
+    "assets/runtime",
+    "locale/*.json",
+    "assets/plugin-icon.svg"
+  ]
+}

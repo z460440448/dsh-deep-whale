@@ -1,0 +1,286 @@
+body[data-dsh-astra-codex] {
+  --astra-ink: #14171d;
+  --astra-secondary: #4d5562;
+  --astra-tertiary: #7c8796;
+  --astra-accent: #108f83;
+  --astra-accent-hover: #087a70;
+  --astra-line: rgba(35, 49, 69, 0.12);
+  --astra-glass: rgba(247, 251, 255, 0.68);
+  --astra-glass-strong: rgba(252, 254, 255, 0.86);
+  --astra-surface: rgba(246, 249, 253, 0.78);
+  --astra-shadow: 0 18px 55px rgba(45, 70, 102, 0.12), 0 2px 8px rgba(45, 70, 102, 0.08);
+  --astra-ease: cubic-bezier(0.23, 1, 0.32, 1);
+  isolation: isolate;
+  color: var(--astra-ink);
+  background: #edf4fb;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", Inter, system-ui, sans-serif;
+  font-optical-sizing: auto;
+  --dsw-static-blue-50: #e6faf6 !important;
+  --dsw-static-blue-100: #c8f1e9 !important;
+  --dsw-static-blue-300: #63c9ba !important;
+  --dsw-static-blue-400: #2aac9d !important;
+  --dsw-static-blue-500: #108f83 !important;
+  --dsw-static-blue-600: #087a70 !important;
+  --dsw-static-blue-800: #075c55 !important;
+  --dsw-static-blue-950: #043d39 !important;
+  --dsw-static-deepseek-50: #e6faf6 !important;
+  --dsw-static-deepseek-100: #c8f1e9 !important;
+  --dsw-static-deepseek-300: #63c9ba !important;
+  --dsw-static-deepseek-400: #2aac9d !important;
+  --dsw-static-deepseek-500: #108f83 !important;
+  --dsw-static-deepseek-600: #087a70 !important;
+  --dsw-static-deepseek-800: #075c55 !important;
+  --dsw-static-deepseek-900: #043d39 !important;
+  --dsw-alias-bg-base: rgba(241, 247, 253, 0.72) !important;
+  --dsw-alias-bg-layer-1: rgba(251, 253, 255, 0.76) !important;
+  --dsw-alias-bg-layer-2: rgba(244, 248, 252, 0.84) !important;
+  --dsw-alias-bg-layer-3: rgba(235, 241, 248, 0.9) !important;
+  --dsw-alias-bg-module-platform: rgba(248, 251, 254, 0.82) !important;
+  --dsw-alias-bg-overlay: rgba(252, 254, 255, 0.94) !important;
+  --dsw-alias-border-l1: rgba(35, 49, 69, 0.08) !important;
+  --dsw-alias-border-l2: rgba(35, 49, 69, 0.14) !important;
+  --dsw-alias-border-l3: rgba(35, 49, 69, 0.22) !important;
+  --dsw-alias-border-l4: rgba(35, 49, 69, 0.32) !important;
+  --dsw-alias-brand-primary: var(--astra-accent) !important;
+  --dsw-alias-brand-primary-invert: #ffffff !important;
+  --dsw-alias-brand-text: #087a70 !important;
+  --dsw-alias-button-primary-fill: var(--astra-accent) !important;
+  --dsw-alias-button-primary-hover: var(--astra-accent-hover) !important;
+  --dsw-alias-button-floating-fill: rgba(252, 254, 255, 0.86) !important;
+  --dsw-alias-button-floating-hover: rgba(229, 240, 247, 0.94) !important;
+  --dsw-alias-button-tool-bar-fill: rgba(249, 252, 255, 0.68) !important;
+  --dsw-alias-button-tool-bar-hover: rgba(224, 237, 246, 0.88) !important;
+  --dsw-alias-interactive-bg-active: rgba(16, 143, 131, 0.14) !important;
+  --dsw-alias-interactive-bg-hover: rgba(16, 143, 131, 0.08) !important;
+  --dsw-alias-interactive-bg-hover-solid: #e5f1f4 !important;
+  --dsw-alias-label-primary: var(--astra-ink) !important;
+  --dsw-alias-label-secondary: var(--astra-secondary) !important;
+  --dsw-alias-label-tertiary: var(--astra-tertiary) !important;
+  --dsw-alias-label-caption: #929dab !important;
+  --dsw-alias-state-business-primary: var(--astra-accent) !important;
+  --dsw-alias-state-business-tertiary: #c8f1e9 !important;
+  --dsw-specific-bubble: rgba(228, 241, 248, 0.82) !important;
+  --dsw-specific-bubble-highlight: rgba(210, 232, 241, 0.94) !important;
+  --dsw-specific-input-major: rgba(252, 254, 255, 0.78) !important;
+  --dsw-specific-menu: rgba(252, 254, 255, 0.94) !important;
+  --dsw-specific-selector: rgba(240, 247, 251, 0.9) !important;
+  --dsw-specific-sidebar-fill: rgba(239, 247, 252, 0.62) !important;
+  --dsw-specific-sidebar-nav-item-active: rgba(255, 255, 255, 0.72) !important;
+  --dsw-specific-sidebar-nav-item-active-accent: var(--astra-accent) !important;
+  --dsw-specific-sidebar-nav-item-hover: rgba(255, 255, 255, 0.5) !important;
+  --dsw-input-solid: #f8fbfd !important;
+  --dsw-radius-xs: 6px;
+  --dsw-radius-sm: 10px;
+  --dsw-radius-md: 14px;
+  --dsw-radius-lg: 18px;
+  --dsw-radius-xl: 24px;
+  --dsw-radius-panel: 28px;
+}
+
+body[data-dsh-astra-codex][data-ds-dark-theme] {
+  --astra-ink: #f2f5f8;
+  --astra-secondary: #bbc3ce;
+  --astra-tertiary: #858e9c;
+  --astra-accent: #56d9c9;
+  --astra-accent-hover: #78e8da;
+  --astra-line: rgba(220, 229, 240, 0.12);
+  --astra-glass: rgba(17, 20, 28, 0.66);
+  --astra-glass-strong: rgba(22, 25, 34, 0.84);
+  --astra-surface: rgba(19, 22, 30, 0.78);
+  --astra-shadow: 0 24px 70px rgba(0, 0, 0, 0.42), 0 2px 10px rgba(0, 0, 0, 0.32);
+  background: #090b10;
+  --dsw-static-blue-50: #122824 !important;
+  --dsw-static-blue-100: #163b35 !important;
+  --dsw-static-blue-300: #2f9f92 !important;
+  --dsw-static-blue-400: #42bbae !important;
+  --dsw-static-blue-500: #56d9c9 !important;
+  --dsw-static-blue-600: #73e4d7 !important;
+  --dsw-static-blue-800: #a0eee5 !important;
+  --dsw-static-blue-950: #d6faf6 !important;
+  --dsw-static-deepseek-50: #122824 !important;
+  --dsw-static-deepseek-100: #163b35 !important;
+  --dsw-static-deepseek-300: #2f9f92 !important;
+  --dsw-static-deepseek-400: #42bbae !important;
+  --dsw-static-deepseek-500: #56d9c9 !important;
+  --dsw-static-deepseek-600: #73e4d7 !important;
+  --dsw-static-deepseek-800: #a0eee5 !important;
+  --dsw-static-deepseek-900: #c8f6f0 !important;
+  --dsw-alias-bg-base: rgba(9, 11, 16, 0.76) !important;
+  --dsw-alias-bg-layer-1: rgba(18, 21, 29, 0.76) !important;
+  --dsw-alias-bg-layer-2: rgba(24, 28, 37, 0.82) !important;
+  --dsw-alias-bg-layer-3: rgba(31, 35, 46, 0.88) !important;
+  --dsw-alias-bg-module-platform: rgba(17, 20, 28, 0.82) !important;
+  --dsw-alias-bg-overlay: rgba(20, 23, 31, 0.94) !important;
+  --dsw-alias-border-l1: rgba(220, 229, 240, 0.08) !important;
+  --dsw-alias-border-l2: rgba(220, 229, 240, 0.14) !important;
+  --dsw-alias-border-l3: rgba(220, 229, 240, 0.22) !important;
+  --dsw-alias-border-l4: rgba(220, 229, 240, 0.34) !important;
+  --dsw-alias-brand-primary: var(--astra-accent) !important;
+  --dsw-alias-brand-primary-invert: #07110f !important;
+  --dsw-alias-brand-text: #82eadf !important;
+  --dsw-alias-button-primary-fill: #52d2c3 !important;
+  --dsw-alias-button-primary-hover: #72e4d8 !important;
+  --dsw-alias-button-floating-fill: rgba(30, 34, 44, 0.86) !important;
+  --dsw-alias-button-floating-hover: rgba(47, 53, 66, 0.94) !important;
+  --dsw-alias-button-tool-bar-fill: rgba(25, 29, 38, 0.7) !important;
+  --dsw-alias-button-tool-bar-hover: rgba(48, 54, 67, 0.88) !important;
+  --dsw-alias-interactive-bg-active: rgba(86, 217, 201, 0.16) !important;
+  --dsw-alias-interactive-bg-hover: rgba(86, 217, 201, 0.09) !important;
+  --dsw-alias-interactive-bg-hover-solid: #273b3b !important;
+  --dsw-alias-label-primary: var(--astra-ink) !important;
+  --dsw-alias-label-secondary: var(--astra-secondary) !important;
+  --dsw-alias-label-tertiary: var(--astra-tertiary) !important;
+  --dsw-alias-label-caption: #737d8b !important;
+  --dsw-alias-state-business-primary: var(--astra-accent) !important;
+  --dsw-alias-state-business-tertiary: #183f39 !important;
+  --dsw-specific-bubble: rgba(39, 48, 61, 0.84) !important;
+  --dsw-specific-bubble-highlight: rgba(51, 62, 77, 0.94) !important;
+  --dsw-specific-input-major: rgba(24, 28, 37, 0.82) !important;
+  --dsw-specific-menu: rgba(22, 25, 34, 0.96) !important;
+  --dsw-specific-selector: rgba(30, 35, 45, 0.92) !important;
+  --dsw-specific-sidebar-fill: rgba(14, 17, 24, 0.68) !important;
+  --dsw-specific-sidebar-nav-item-active: rgba(53, 63, 77, 0.72) !important;
+  --dsw-specific-sidebar-nav-item-active-accent: var(--astra-accent) !important;
+  --dsw-specific-sidebar-nav-item-hover: rgba(45, 53, 66, 0.62) !important;
+  --dsw-input-solid: #171b24 !important;
+}
+
+body[data-dsh-astra-codex] [id='root'] {
+  position: relative;
+  z-index: 1;
+}
+
+body[data-dsh-astra-codex] [data-slot='sidebar'] > :first-child {
+  border-right: 1px solid var(--astra-line);
+  background:
+    linear-gradient(180deg, transparent 0 180px, var(--astra-glass) 300px),
+    var(--astra-light-art) top center / max(100%, 360px) auto no-repeat;
+  box-shadow: inset -1px 0 rgba(255, 255, 255, 0.38);
+  backdrop-filter: blur(24px) saturate(145%);
+}
+
+body[data-dsh-astra-codex][data-ds-dark-theme] [data-slot='sidebar'] > :first-child {
+  background:
+    linear-gradient(180deg, rgba(8, 10, 15, 0.06) 0 160px, var(--astra-glass) 300px),
+    var(--astra-dark-art) top center / max(100%, 350px) auto no-repeat;
+  box-shadow: inset -1px 0 rgba(255, 255, 255, 0.08);
+}
+
+body[data-dsh-astra-codex] [data-slot='sidebar'] > :first-child > :first-child {
+  background: rgba(255, 255, 255, 0.44);
+  border: 1px solid rgba(255, 255, 255, 0.52);
+  border-radius: 16px;
+  margin: 10px 10px 0;
+  box-shadow: 0 8px 28px rgba(37, 68, 102, 0.1);
+  backdrop-filter: blur(22px) saturate(150%);
+}
+
+body[data-dsh-astra-codex][data-ds-dark-theme] [data-slot='sidebar'] > :first-child > :first-child {
+  background: rgba(17, 20, 29, 0.54);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.32);
+}
+
+body[data-dsh-astra-codex] :where(
+  [role='dialog'],
+  [role='menu'],
+  [role='listbox'],
+  [data-composer-card]
+) {
+  border: 1px solid var(--astra-line) !important;
+  background-color: var(--astra-glass-strong) !important;
+  box-shadow: var(--astra-shadow) !important;
+  backdrop-filter: blur(28px) saturate(150%);
+}
+
+body[data-dsh-astra-codex] :where(button, [role='button'], [role='menuitem'], [role='tab']) {
+  transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, transform 120ms var(--astra-ease);
+}
+
+body[data-dsh-astra-codex] :where(button, [role='button']):active {
+  transform: scale(0.98);
+}
+
+body[data-dsh-astra-codex] :where(textarea, input, [contenteditable='true']):focus-visible,
+body[data-dsh-astra-codex] :where(button, [role='button']):focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--astra-accent) 34%, transparent) !important;
+  outline-offset: 2px;
+}
+
+.scene {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 76% 12%, rgba(118, 184, 255, 0.2), transparent 30%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.5), transparent 48%);
+}
+
+.ambientGlow {
+  position: absolute;
+  width: min(42vw, 680px);
+  aspect-ratio: 1;
+  right: -10vw;
+  top: -18vw;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(88, 217, 201, 0.2), transparent 68%);
+  filter: blur(24px);
+}
+
+.constellation {
+  position: absolute;
+  inset: 0;
+  opacity: 0.26;
+  background-image: radial-gradient(circle, rgba(40, 75, 110, 0.28) 0 1px, transparent 1.5px);
+  background-size: 32px 32px;
+  mask-image: linear-gradient(100deg, transparent 20%, #000 70%, transparent 100%);
+}
+
+body[data-dsh-astra-codex][data-ds-dark-theme] .scene {
+  background:
+    radial-gradient(circle at 78% 14%, rgba(99, 81, 187, 0.2), transparent 30%),
+    radial-gradient(circle at 54% 92%, rgba(40, 158, 150, 0.13), transparent 34%),
+    #090b10;
+}
+
+body[data-dsh-astra-codex][data-ds-dark-theme] .constellation {
+  opacity: 0.22;
+  background-image: radial-gradient(circle, rgba(186, 205, 235, 0.34) 0 1px, transparent 1.5px);
+}
+
+html[data-platform='darwin'] body[data-dsh-astra-codex] > [data-skin-chrome='astra-scene'] {
+  -webkit-app-region: initial !important;
+}
+
+@media (max-width: 760px) {
+  body[data-dsh-astra-codex] [data-slot='sidebar'] > :first-child {
+    background-size: 420px auto;
+    background-position: 50% 0;
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  body[data-dsh-astra-codex] {
+    --astra-glass: #f2f6fa;
+    --astra-glass-strong: #f8fafc;
+  }
+  body[data-dsh-astra-codex][data-ds-dark-theme] {
+    --astra-glass: #12161d;
+    --astra-glass-strong: #191e27;
+  }
+  body[data-dsh-astra-codex] [data-slot='sidebar'] > :first-child,
+  body[data-dsh-astra-codex] :where([role='dialog'], [role='menu'], [role='listbox'], [data-composer-card]) {
+    backdrop-filter: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body[data-dsh-astra-codex] :where(button, [role='button'], [role='menuitem'], [role='tab']) {
+    transition: color 120ms ease, background-color 120ms ease, border-color 120ms ease;
+  }
+  body[data-dsh-astra-codex] :where(button, [role='button']):active {
+    transform: none;
+  }
+}
